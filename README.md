@@ -14,6 +14,8 @@ const Class = new Proxy(class {}, {
     return newClass(target, name) || target[name];
   }
 });
+
+Class.new() instanceof Class; // true
 ```
 
 The default export returns a function that does the following checks in an unobtrusive way:
