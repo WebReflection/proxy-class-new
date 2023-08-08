@@ -1,6 +1,6 @@
 {
   "name": "proxy-class-new",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A 'not too bad' alternative to @ungap/new proposal",
   "main": "./cjs/index.js",
   "scripts": {
